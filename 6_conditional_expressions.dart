@@ -18,8 +18,8 @@ void main() {
 	// 2.   exp1 ?? exp2
 	// If expr1 is non-null, returns its value; otherwise, evaluates and
 	// returns the value of expr2.
-
-	String name = null;
+  //為什麼字串初始值不預設空串??? , 結果還要加?來給null
+	String? name = null;
 
 	String nameToPrint = name ?? "Guest User";
 	print(nameToPrint);

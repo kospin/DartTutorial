@@ -1,7 +1,9 @@
-# Dart Programming Tutorial for Beginners 
+# Dart Programming Tutorial for Beginners
+
 Learn Dart Programming, its basics and Fundamentals from scratch.
 
 ## Topics to be covered
+
 0. Overview
     - Course introduction, prequisites and software required
 1. Installation
@@ -63,4 +65,4 @@ Learn Dart Programming, its basics and Fundamentals from scratch.
 
 ## Authors
 
-* **Team Smartherd** 
+- **Team Smartherd**

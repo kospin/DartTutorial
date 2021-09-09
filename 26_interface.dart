@@ -7,6 +7,8 @@ void main() {
 	var tv = Television();
 	tv.volumeUp();
 	tv.volumeDown();
+  tv.justAnotherMethod();
+  tv.channelUp();
 }
 
 class Remote {
@@ -31,6 +33,7 @@ class AnotherClass {
 // Here Remote and AnotherClass acts as Interface
 class Television implements Remote, AnotherClass {
 
+
 	void volumeUp() {
 //		super.volumeUp();       // Not allowed to call super while implementing a class as Interface
 		print("______Volume Up in Television_______");
@@ -43,4 +46,7 @@ class Television implements Remote, AnotherClass {
 	void justAnotherMethod() {
 		print("Some code");
 	}
+  void channelUp(){
+    print("test Up");
+  }
 }

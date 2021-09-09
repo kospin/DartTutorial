@@ -51,7 +51,8 @@ void main() {
 	// CASE 5: Custom Exception
 	try {
 		depositMoney(-200);
-	} catch (e) {
+    //沒用on DepositException 就會catch到object e 就沒有 errorMessage()
+	} on DepositException catch (e) {
 		print(e.errorMessage());
 	} finally {
 		// Code
